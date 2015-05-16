@@ -1,8 +1,3 @@
-TODO
-- display more than one button on second round and after
-
-
-
 Minimum Game Requirements
 Use the HTML/CSS from assignment #2. The page should be fully responsive and render correctly in at least one browser (Firefox or Chrome).
 Addon functionality (using JavaScript)
