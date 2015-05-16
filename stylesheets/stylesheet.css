@@ -1,0 +1,87 @@
+.container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+#box {
+  display: inline-block;
+  position: relative;
+  min-width: 500px;
+  width: 50%;
+}
+
+#dummy {
+  margin-top: 100%;
+}
+
+
+div#top {
+  position: relative;
+  width: 60%;
+  height: 20%;
+  background: red;
+  top: 0;
+  margin-left: 20%;
+  border-radius: 5px;
+}
+
+div#right {
+  position: relative;
+  width: 20%;
+  height: 60%;
+  background: green;
+  float: right;
+  border-radius: 5px;
+}
+
+div#left {
+  position: relative;
+  width: 20%;
+  height: 60%;
+  background: yellow;
+  float:left;
+  border-radius: 5px;
+}
+
+div#bottom {
+  position: absolute;
+  width: 60%;
+  height: 20%;
+  background: blue;
+  bottom: 0;
+  margin-left: 20%;
+  border-radius: 5px;
+}
+
+#topbutton {
+  position: absolute;
+  top: 30%;
+  left: 47%;
+}
+
+#rightbutton {
+  position: absolute;
+  right: 30%;
+  top: 50%;
+}
+
+#leftbutton {
+  position: absolute;
+  left: 30%;
+  top: 50%;
+}
+
+#bottombutton {
+  position: absolute;
+  bottom: 27%;
+  left: 47%;
+}
+
+#midbutton {
+  position: absolute;
+  top: 50%;
+  left: 47%;
+}

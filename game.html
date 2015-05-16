@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Assignment 3</title>
+    <link rel="stylesheet" href="stylesheets/stylesheet.css">
+    <script language="javascript" type="text/javascript" src="stylesheets/game.js"></script>
+    <script type="text/javascript" src="stylesheets/jquery-1.11.3.min.js"></script>
+  </head>
+  <body>
+    <div id="box">
+      <div id="dummy">
+        <div class="container">
+          <div id="top"></div>
+          <div id="left"></div>
+          <div id="right"></div>
+          <div id="bottom"></div>
+          <script>
+            var topButton = 0;
+            var leftButton = 1;
+            var rightButton = 2;
+            var bottomButton = 3;
+            var level = 0;
+            var choices = [];
+            var randArray = [];
+          </script>
+
+          <form>
+            <input type="button" value="TOP" class="btn" id="topbutton" onclick="buttonClick(topButton)">
+          </form>
+
+          <form>
+            <input type="button" value="LEFT" class="btn" id="leftbutton" onclick="buttonClick(leftButton)">
+          </form>
+
+          <form>
+            <input type="button" value="RIGHT" class="btn" id="rightbutton" onclick="buttonClick(rightButton)">
+          </form>
+
+          <form>
+            <input type="button" value="BOT" class="btn" id="bottombutton" onclick="buttonClick(bottomButton)">
+          </form>
+
+          <form>
+            <input type="button" value="START" class="btn" id="midbutton" onclick="startGame()">
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
