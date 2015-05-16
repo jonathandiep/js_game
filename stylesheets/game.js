@@ -47,7 +47,8 @@ function displaySide(side) {
       });
       break;
     default:
-      alert("boo hoo there's a fucking bug :(");
+      alert("boo hoo there's a bug :(");
+      break;
   }
 }
 
